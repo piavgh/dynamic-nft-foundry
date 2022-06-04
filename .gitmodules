@@ -7,3 +7,6 @@
 [submodule "lib/chainlink"]
 	path = lib/chainlink
 	url = https://github.com/smartcontractkit/chainlink
+[submodule "lib/hardhat"]
+	path = lib/hardhat
+	url = https://github.com/NomicFoundation/hardhat
