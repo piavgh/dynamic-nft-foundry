@@ -43,11 +43,11 @@ contract BullAndBear is
 
     event TokenUpdated(string marketTrend);
 
-    constructor(uint updateInterface, address _priceFeed)
-        ERC721("Bull&Bear", "BBTK")
+    constructor(uint updateInterval, address _priceFeed)
+        ERC721("BullBear", "BBTK")
     {
         // Set the keeper update interval
-        interval = updateInterface;
+        interval = updateInterval;
         lastTimeStamp = block.timestamp;
 
         // set the price feed address to
